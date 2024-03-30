@@ -1,13 +1,13 @@
 body{  
-    font-family: Helvetica, Sans-serif,serif;
     font-size:15px;
     color:#000;
     background:#fff;
 }
  
 h1 {
-    font-family: Helvetica, Sans-serif,serif;
+    font-family: Sans-serif,serif;
     font-weight: bold;
+    margin: 0px auto;
     font-size:50px;
 }
  
