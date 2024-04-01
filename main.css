@@ -22,15 +22,6 @@ body {
     object-fit: cover;
     object-position: 100% center;
   }
-
-
-#image-track > .image:hover {
-    cursor: pointer;
-    width: 70vmin;
-    height: 70vmin;
-    object-fit: cover;
-    object-position: 100% center;
-}
   
   
   /* -- YouTube Link Styles -- */
