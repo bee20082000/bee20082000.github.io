@@ -1,7 +1,8 @@
-
 const track = document.getElementById("image-track");
 
-const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
+function handleOnDown(e) {
+  return (track.dataset.mouseDownAt = e.clientX);
+}
 
 const handleOnUp = () => {
   track.dataset.mouseDownAt = "0";
@@ -51,4 +52,3 @@ window.ontouchend = (e) => handleOnUp(e.touches[0]);
 window.onmousemove = (e) => handleOnMove(e);
 
 window.ontouchmove = (e) => handleOnMove(e.touches[0]);
-
