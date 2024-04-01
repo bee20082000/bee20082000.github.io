@@ -16,23 +16,21 @@ body {
     user-select: none; /* -- Prevent image highlighting -- */
   }
 
-#image-track:hover{
-    display: flex;
-    size: 1.5;
-    gap: 4vmin;
-    position: absolute;
-    left: 30%;
-    top: 50%;
-    transform: translate(-20%, -50%); 
-    user-select: none;
-}
-  
   #image-track > .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
   }
+
+
+#image-track > .image:hover {
+    width: 50vmin;
+    height: 70vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+  
   
   /* -- YouTube Link Styles -- */
   
