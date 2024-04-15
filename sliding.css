@@ -1,0 +1,25 @@
+#image-track {
+  display: flex;
+  gap: 2em;
+  position: absolute;
+  width: auto;
+  left: 0%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+}
+
+#image-track>.image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 50% center;
+  border-radius: 1em;
+  transition: .3s cubic-bezier(.13,.53,.38,.97)
+}
+
+#image-track>.image:hover {
+  -webkit-filter: blur(2px) brightness(70%); /* Chrome, Safari, Opera */
+  filter: blur(2px) brightness(70%);
+  transition: .3s cubic-bezier(.13,.53,.38,.97)
+}
